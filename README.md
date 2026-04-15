@@ -1,5 +1,5 @@
 # chronos-project
-# Retail Demand Forecasting: Zero-Shot Multivariate Inference with Chronos-T5
+# Retail Demand Forecasting: Zero-Shot Multivariate Inference with Chronos-T5 
 
 ### Executive Overview
 Retail sales data is notoriously difficult to model due to its "sparse" nature (intermittent demand with frequent zero-sales days) and heavy reliance on external causal factors like pricing elasticity and calendar events. Traditional deterministic models (e.g., ARIMA, standard LSTMs) typically fail under these non-stationary conditions, often predicting inaccurate flat averages.
