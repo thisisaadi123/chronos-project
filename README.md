@@ -27,9 +27,9 @@ Rather than predicting a single deterministic median, the model generates 50 dis
 Standard metrics like Mean Absolute Error (MAE) break down on sparse data. This model is evaluated using Mean Weighted Quantile Loss (wQL), which penalizes the model based on its ability to encapsulate reality within its P10-P90 probability cone. 
 
 **Zero-Shot Baseline Results:**
-* P10 wQL (Stockout Risk): 0.67 — Successfully recognizes sparsity without hallucinating phantom sales.
-* P90 wQL (Overstock Risk): 0.84 — Effectively expands the cone of uncertainty to catch promotional spikes.
-* Mean wQL Score: 0.82
+* P10 wQL (Stockout Risk): 0.6815 — Successfully recognizes sparsity without hallucinating phantom sales.
+* P90 wQL (Overstock Risk): 0.8832 — Effectively expands the cone of uncertainty to catch promotional spikes.
+* Mean wQL Score: 0.8378
 
 Note: In the domain of zero-shot intermittent retail forecasting, a Mean wQL under 1.0 indicates a highly viable production baseline for supply chain operations.
 
